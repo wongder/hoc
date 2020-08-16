@@ -6,6 +6,7 @@ const Hello = ({ name, title }) => <h1>Hello {title} {name}!</h1>;
 // Wrap component by taking it in as argument WrappedComponent
 //first change
 //second change
+//third change commit push
 function simpleHOC(WrappedComponent) {
 	// And return a new anonymous component
 	return class extends React.Component {
